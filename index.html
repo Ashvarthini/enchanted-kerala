@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,85 +8,95 @@
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body>
-    <!--The Nav bar-->
-    <nav>
-    <div id="navleft">Enchanting kerala</div>
-    <div id="navright">
-        <a href="#"><b>Explore</b></a>
-        <a href="#"><b>Saved</b></a>
-        <a href="#"><b>Trips</b></a>
-        <a href="#"><b>Profile</b></a>
-    </div >
-    <img src="images/user.png" id = "user">
-    </nav>
 
-    <!--The main-->
+<body>
+    <!--start:Nav bar-->
+    <nav>
+        <div class="page-nav-title">Enchanting kerala</div>
+        <div class="nav-link">
+            <a href="#">Explore</a>
+            <a href="#">Saved</a>
+            <a href="#">Trips</a>
+            <a href="#">Profile</a>
+        </div>
+        <img src="images/user.png" alt="user icon"  class="user-icon">
+    </nav>
+    <!--end:Nav bar-->
+
     <main>
-        <!--div 1-->
-        <div class="div1">
-            <img src="images/img1.png" id = "image1">
-            <div id="text">
-                <p id="text1" style="color: white; font-family: sans-serif; font-size: 45px;">Where Tradition Meets The Tide</p>
-                <p id="text2" style="color: white; font-family: sans-serif; font-size: 15px;"><i>Journey through the soul of God's Own Country.</i></p>
-                <p id="text3" style="color: white; font-family: sans-serif; font-size: 10px;"><b>BEGIN YOUR JOURNEY</b><p>
+        <!--start:hero section-->
+        <div class="hero-section">
+            <img src="images/img1.png" alt="lake in kerala" class="hero-image">
+            <div class="hero-content">
+                <p class="hero-title">Where Tradition Meets The Tide</p>
+                <p class="hero-subtitle"><i>Journey through the soul of God's Own Country.</i></p>
+                <p class="hero-button">BEGIN YOUR JOURNEY<p>
             </div>
         </div>
+        <!--end:hero section-->
 
-         <!--div 2-->
-        <div class="div2">
-            <div id="head">
+        <!-- start:Destination section -->
+        <div class="destinations-section">
+            <div class="section-header">
                 <h2>CURATED DESTINATIONS</h2>
                 <P>The very best of the Malabar Coast</P>
             </div>
 
-            <div id = "box">
-                <div class = "box" id="box1">
-                    <img class="img2" src="images/img2.png">
-                    <p style=" color: rgb(26, 179, 138);" class="p1">HIGHLANDS</p>
-                    <p class="p2">Serene Tea Gardens</p>
-                    <p class="p3">Experience the lush green rolling hills and fresh mountain air of the world-famous tea plantations</p>
+            <div class="destination-card-container">
+                <div class="destinations highlands-card">
+                    <img class="destination-image" alt="munnar picture" src="images/img2.png">
+                    <p class="destination-category">HIGHLANDS</p>
+                    <p class="destination-title">Serene Tea Gardens</p>
+                    <p class="destination-description">Experience the lush green rolling hills and fresh mountain air of the world-famous tea plantations</p>
                 </div>
-                <div class = "box" id="box2">
-                    <img class="img2" src="images/img3.png">
-                    <p style=" color: rgb(26, 179, 138);" class="p1">HERITAGE</p>
-                    <p class="p2">Vibrant Art & Culture</p>
-                    <p class="p3">Witness the dramatic storytelling and elaborate costumes of traditional kathakali performances.</p>
+                <div class="destinations heritage-card">
+                    <img class="destination-image" alt="kathakali picture" src="images/img3.png">
+                    <p class="destination-category">HERITAGE</p>
+                    <p class="destination-title">Vibrant Art & Culture</p>
+                    <p class="destination-description">Witness the dramatic storytelling and elaborate costumes of traditional kathakali performances.</p>
                 </div>
-                <div class = "box" id="box3">
-                    <img class="img2" src="images/img4.png">
-                    <p style=" color: rgb(26, 179, 138);" class="p1">WILDLIFE</p>
-                    <p class="p2">Wild Jungle Safaris</p>
-                    <p class="p3">Get up close with magnificent wild elephants in their natural habitat at Periyar National Park.</p>
+                <div class="destinations wildlife-card">
+                    <img class="destination-image" alt="wildlife in kera;" src="images/img4.png">
+                    <p class="destination-category">WILDLIFE</p>
+                    <p class="destination-title">Wild Jungle Safaris</p>
+                    <p class="destination-description">Get up close with magnificent wild elephants in their natural habitat at Periyar National Park.</p>
                 </div>
             </div>
         </div>
-        
-        <!--div 3-->
-        <div class="div3">
-            <h2>Many Wonders, One Emotion</h2>
-            <div id="line"></div>
-            <p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of 
-            type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has beenthe industry's standard
-            </p>
-            <p id="p2"><i>
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.It has survived not only five centuries, but also the leap into electronic typesetting.
-            </i></p>
-        </div>
-    </main>
+        <!-- start:Destination section -->
 
-    <!--the footer--> 
+        <!-- start:about section -->
+        <div class="about-section">
+            <h2>Many Wonders, One Emotion</h2>
+            <div class="section-divider"></div>
+            <p class="about-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of
+                type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has beenthe industry's standard
+            </p>
+            <p class="about-highlight"><i>
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                    essentially.unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages.It has survived not only five centuries, but also the leap into
+                    electronic typesetting.
+                </i></p>
+        </div>
+        <!--end:about section -->
+    </main>
 </body>
+
+<!--start:the footer-->
 <footer>
     <h2>Enchanting kerala</h2>
-    <p id="foot1">Discover the magic of God's Own Country.</p>
-    <p id="foot2">COPYRIGHTS 2024. All Rights Reserved.</p>
-    <p id="foot3">Curated with love for Kerala Tourism.</p>
-    <div class="icons">
+    <p class="footer-tagline">Discover the magic of God's Own Country.</p>
+    <p class="footer-copyright">COPYRIGHTS 2024. All Rights Reserved.</p>
+    <p class="footer-credit">Curated with love for Kerala Tourism.</p>
+    <div class="footer-icons">
         <i class="fa-solid fa-share-nodes"></i>
         <i class="fa-regular fa-circle-play"></i>
         <i class="fa-regular fa-circle-question"></i>
     </div>
 </footer>
+<!--end:the footer-->
+
 </html>

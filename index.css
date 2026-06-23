@@ -4,219 +4,252 @@ nav{
     padding: 1.2%;
     color: #2F0A33;
 }
-#navright a{
-    font-size: 17px;
+.nav-link a{
+    font-size: 1rem;
+    font-weight: bold;
     text-decoration: none;
     color: #2F0A33;
-    margin-left: 15px;
+    margin-left: 1.5rem;
 }
-#navright{
-    margin-left: 500px;
+.nav-link{
+    margin-left: 26rem;
     display: inline;
 }
-#navleft {
-    font-size: 25px;
-    margin-left: 20px;
+.page-nav-title {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
     display: inline;
 }
-#user{
+.user-icon{
     display: inline;
-    width: 25px;
-    height: 23px;
+    height: 1.5rem;
     float: right;
 }
 
 /*body*/
 main{
-    background-color: rgb(245, 242, 242);
+    background-color: #F5F2F2;
 }
-/*body - div1*/
-.div1{
+/*hero Section*/
+.hero-section{
     position: relative;
 }
-.div1::before{
+.hero-section::before{
     content: "";
     position: absolute;
     width: 100%;
-    height: 700px;
-    background-color: rgba(47, 10, 51, 40%);
+    height: 45rem;
+    background-color: #2F0A3366;
 }
-#image1{ 
+.hero-image{ 
     width: 100%;
-    height: 700px;
+    height: 45rem;
 }
-#text1{
+.hero-title{
     position: absolute;   
     top: 33%;
     width: 100%;
     text-align: center;
+    color: white; 
+    font-family: sans-serif; 
+    font-size: 2.7rem;
 }
-#text2{  
+.hero-subtitle{  
     position: absolute;
     top: 46%;
     width: 100%;
     text-align: center;
+    color: white; 
+    font-family: sans-serif; 
+    font-size: 1rem;
 }
-#text3{
+.hero-button{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.7rem;     
     position: absolute;
     background-color: #2F0A33;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 0.5rem;      
+    padding-bottom: 0.5rem;  
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    border-radius: 0.3rem;
     top: 53%;
     left: 46%;
 }
 
-/*body - div2*/
-.div2{
+/*Destination section*/
+.destinations-section{
     position: relative;
     width: 100%;
-    height: 730px;
+    height: 45.6rem;
 }
-#head{
-    margin-top: 30px;
-    margin-left: 50px;
-    border-left: 4px solid #2F0A33;
+.section-header{
+    margin-top: 1.8rem;
+    margin-left: 3.5rem;
+    border-left: 0.25rem solid #2F0A33;
     font-family: sans-serif;
-    padding-left: 15px;
+    padding-left: 0.9rem;
 }
-#head h2{
+.section-header h2{
     margin-bottom: 0;
 }
-#head p{
-    margin-top: 5px;
+.section-header p{
+    margin-top: 0.3rem;
 }
-#box{
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 30px;
+
+.destination-card-container{
+    padding-left: 3.1rem;
+    padding-right: 3.1rem;
+    margin-top: 1.9rem;
 }
-#box2 , #box3{
-    margin-left: 34px;
+
+.heritage-card,
+.wildlife-card{
+    margin-left: 2rem;
 }
-.box{
+
+.destinations{
     position: relative;
     display: inline-block;
-    height: 600px;
-    width: 440px;
-    border-radius: 10px;
-    overflow: hidden; /*referred*/
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    height: 37.5rem;
+    width: 27.5rem;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow: 0rem 0rem 0.3rem #00000033;
     background-color: white;
 }
-.box p{
+
+.destination-card-container p{
     position: absolute;
     font-family: sans-serif;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
 }
-.img2{
+
+.destination-image{
     position: absolute;
     height: 65%;
     width: 100%;
 }
-.p1{
+
+.destination-category{
+    color: #1AB38A;
     top: 65%;
-    font-size: 13px;
-}
-.p2{
-    top:66%;
-    font-size: 30px;
-}
-.p3{
-    font-size: 13px;
-    line-height: 1.8;
-    top:78%;
+    font-size: 0.8rem;
 }
 
-/*body - div3*/
-.div3{
+.destination-title{
+    top: 66%;
+    font-size: 1.9rem;
+}
+.destination-description{
+    font-size: 0.8rem;
+    line-height: 1.8;
+    top: 78%;
+}
+
+/*about section*/
+.about-section{
     background-color: white;
     position: relative;
-    height: 380px;
+    height: 23.7rem;
 }
-.div3 h2{
-    position: absolute; 
-    width: 100%; 
-    font-family:Verdana;
+
+.about-section h2{
+    position: absolute;
+    width: 100%;
+    font-family: Verdana;
     font-weight: 50;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
-    top: 40px;
+    top: 2.5rem;
 }
-#line{
+
+.section-divider{
     position: absolute;
-    top: 150px;
-    left: 710px;
-    height: 4px;
-    width: 100px;
-    background-color:aqua;
+    top: 9.4rem;
+    left: 44.3rem;
+    height: 0.25rem;
+    width: 6.25rem;
+    background-color: aqua;
 }
-#p1{
+
+.about-description{
     position: absolute;
-    top: 170px;
+    top: 10.6rem;
     text-align: center;
     font-family: Verdana;
     line-height: 1.8;
     font-size: small;
-    padding-left: 15%;padding-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
     color: #2F0A33;
 }
-#p2{
+
+.about-highlight{
     position: absolute;
-    top: 260px;
+    top: 16.25rem;
     text-align: center;
-    padding-left: 15%;padding-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
     font-family: Verdana;
     line-height: 1.8;
-    font-size:smaller;
+    font-size: smaller;
     color: grey;
 }
+
 
 /*The footer*/
 footer{
     position: relative;
     background-color: #2F0A33;
-    height: 200px;
+    height: 12.5rem;
     width: 100%;
 }
+
 footer h2{
     position: absolute;
     color: white;
     font-family: Verdana;
     font-weight: 50;
-    top: 13px;
-    left: 40px;
+    top: 0.8rem;
+    left: 2.5rem;
 }
+
 footer p{
     position: absolute;
     color: white;
     font-family: Verdana;
 }
-#foot1{
+
+.footer-tagline{
     font-size: small;
-    top: 60px;
-    left: 40px;
+    top: 3.75rem;
+    left: 2.5rem;
 }
-#foot2{
-    font-size: 12px;
-    top: 150px;
-    left: 40px;
+
+.footer-copyright{
+    font-size: 0.75rem;
+    top: 9.4rem;
+    left: 2.5rem;
 }
-#foot3{
-    font-size: 12px;
-    top: 150px;
-    right: 40px;
+
+.footer-credit{
+    font-size: 0.75rem;
+    top: 9.4rem;
+    right: 2.5rem;
 }
-.icons{
+
+.footer-icons{
     color: white;
     position: absolute;
-    right: 50px;
-    top: 50px;
+    right: 3.1rem;
+    top: 3.1rem;
 }
-.icons i{
-    margin-left: 20px;
-    font-size: 20px;
+
+.footer-icons i{
+    margin-left: 1.25rem;
+    font-size: 1.25rem;
 }
